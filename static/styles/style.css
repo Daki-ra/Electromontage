@@ -1,0 +1,154 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fde5ca;
+    color:#63421c;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fde5ca;
+    padding: 10px 20px;
+   
+}
+
+.logo {
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 20px; 
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav li {
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a {
+    text-decoration: none;
+    color:#63421c;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(92, 59, 18, 0.382);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f8ebdd;
+
+}
+
+li:hover {
+    transform: scale(1.1); 
+    
+}
+
+a:hover {
+    background-color: #63421c;
+    color: #f8ebdd;
+   
+}
+
+.address {
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.service {
+    background-color: #f8ebdd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(92, 59, 18, 0.382);
+    width: calc(25% - 35px); 
+    min-width: 250px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.service:hover {
+    transform: scale(1.1); 
+    transition: all 0.3s Ease-in-out;
+    background-color: #907455;
+    color: #f8ebdd;
+}
+
+.service img {
+    width: 310px;
+    height: 210px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.service p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image {
+	background: #000000;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.image img {
+	opacity: 0.7;
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.imagetext {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 23%;
+    width: 40%;
+    color: #f8ebdd;
+    font-size: 50px;
+    line-height: 55px;
+    background: #000000;
+    opacity: 0.7;
+    padding: 40px;  
+    border-radius: 20px;
+    }
+
